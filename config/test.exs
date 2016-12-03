@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :awesome_lunch, AwesomeLunch.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "intern",
+  password: "password",
   database: "awesome_lunch_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
