@@ -1,15 +1,1 @@
 <h1>Pick Two Locations</h1>
-
-<%= form_for @location, locations_path(@conn, :create), fn f -> %>
-
-  <label>
-    Start: <%= text_input f, :start %>
-  </label>
-
-  <label>
-    End: <%= text_input f, :end %>
-  </label>
-
-  <%= submit "Pick An Awesome Lunch" %>
-
-<% end %>

@@ -1,0 +1,15 @@
+<h1>Hey There</h1>
+
+<%= form_for @changeset, locations_path(@conn, :create), fn f -> %>
+
+  <label>
+    Start: <%= text_input f, :start %>
+  </label>
+
+  <label>
+    End: <%= text_input f, :end %>
+  </label>
+
+  <%= submit "Pick An Awesome Lunch" %>
+
+<% end %>
