@@ -3,8 +3,8 @@ defmodule AwesomeLunch.Repo.Migrations.CreateLocationsTable do
 
   def change do
     create table(:locations) do
-      add :start, :string
-      add :end,   :string
+      add :start,  :string
+      add :finish, :string
     end
   end
 end

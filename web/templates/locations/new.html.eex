@@ -6,7 +6,7 @@
   </label>
 
   <label>
-    End: <%= text_input f, :end %>
+    Finish: <%= text_input f, :finish %>
   </label>
 
   <%= submit "Pick An Awesome Lunch" %>

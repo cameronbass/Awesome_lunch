@@ -1,1 +1,9 @@
 <h1>Pick Two Locations</h1>
+
+<ul class="collection">
+  <%= for locations <- @locations do %>
+    <li class="collection-item">
+      <%= link locations.start, to: locations_path(@conn, :show, locations) %>
+    </li>
+  <% end %>
+</ul>

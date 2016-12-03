@@ -1,0 +1,3 @@
+<h1>Show Page for locations</h1>
+
+<h5><%= @locations.start %>, and <%= @locations.finish %></h5>

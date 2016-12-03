@@ -6,12 +6,12 @@ defmodule AwesomeLunch.Locations do
 
   schema "locations" do
     field :start
-    field :end
+    field :finish
   end
 
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:start, :end])
-    |> validate_required([:start, :end])
+    |> cast(params, [:start, :finish])
+    |> validate_required([:start, :finish])
   end
 end
